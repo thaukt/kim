@@ -19,13 +19,14 @@
       "filterable": 1
     },
     {
-      "key": "Kmys",
-      "name": "酷猫",
+      "key": "bdys",
+      "name": "哔嘀(磁力测试)",
       "type": 3,
-      "api": "csp_Kmys",
+      "api": "csp_XPbd",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+	"ext": "https://cdn.jsdelivr.net/gh/thaukt/kim/TVBox/box/Bdys.json"
     },
     {
       "key": "Ikan",
@@ -59,15 +60,6 @@
       "name": "Olevod",
       "type": 3,
       "api": "csp_Olevod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "低端影视",
-      "name": "低端影视",
-      "type": 3,
-      "api": "csp_Ddrk",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -126,7 +118,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://cdn.jsdelivr.net/gh/thaukt/kim/TVBox/MeowXB/555电影.json"
+      "ext": "https://cdn.jsdelivr.net/gh/thaukt/kim/TVBox/MeowXB/555dy.json"
     },
     {
       "key": "剧白白",
@@ -136,7 +128,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://cdn.jsdelivr.net/gh/thaukt/kim/TVBox/MeowXP/jubaibai.json"
+      "ext": "https://cdn.jsdelivr.net/gh/thaukt/kim/TVBox/MeowXBMeowXP/jubaibai.json"
     },
     {
       "key": "Kuaikan",
@@ -181,7 +173,18 @@
       "api": "csp_Bili",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+	"ext": "https://cdn.jsdelivr.net/gh/thaukt/kim/TVBox/box/Bili.json"
+    },
+    {
+      "key": "Gitcafe",
+      "name": "小纸条",
+      "type": 3,
+      "api": "csp_Gitcafe",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "27b06d5221a24199b15f2e573d847430"
     },
     {
       "key": "AliPS",
@@ -194,10 +197,10 @@
       "ext": "27b06d5221a24199b15f2e573d847430"
     },
     {
-      "key": "Gitcafe",
-      "name": "小纸条",
+      "key": "zhaozy",
+      "name": "找资源",
       "type": 3,
-      "api": "csp_Gitcafe",
+      "api": "csp_Zhaozy",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -221,7 +224,7 @@
         {
           "name": "redirect",
           "urls": [
-            "proxy://do=live&type=txt&ext=https://raw.githubusercontent.com/Aug-yu/maotv/main/jk/tv/ts.txt"
+            "proxy://do=live&type=txt&ext=https://cdn.jsdelivr.net/gh/thaukt/kim/TVBox/box/Live.txt"
           ]
         }
       ]
@@ -247,9 +250,9 @@
       "url": "Sequence"
     },
     {
-      "name": "293",
+      "name": "龙虾",
       "type": 1,
-      "url": "http://81.71.48.249:4456/jsonc/longxia.php?url=",
+      "url": "http://106.55.234.91:4433/?url=",
       "ext": {
         "flag": [
           "qq",
@@ -262,14 +265,14 @@
           "1905"
         ],
         "header": {
-          "User-Agent": "Dart/2.14 (dart:io)"
+          "User-Agent": "Dalvik/2.1.0"
         }
       }
     },
     {
-      "name": "Pro",
-      "type": 1,
-      "url": "http://api.vip123kan.vip/?url=",
+      "name": "Web解析",
+      "type": 0,
+      "url": "https://chaxun.truechat365.com/?url=",
       "ext": {
         "flag": [
           "youku",
