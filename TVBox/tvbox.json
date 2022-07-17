@@ -1,5 +1,5 @@
 {
-"spider":"https://raw.fastgit.org/thaukt/kim/main/TVBox/jar/diejia.jar",
+"spider":"https://raw.fastgit.org/thaukt/kim/main/TVBox/jar/tangsan.jar",
 
 "lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cDovL2hvbWUuanVuZGllLnRvcDo4MS9UVkJveC90di9iYy50eHQ="]}]}],
 
