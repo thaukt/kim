@@ -1,6 +1,5 @@
 {
 "sites":[
-{"key":"001","name":"密码888","type":3,"api":"","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"T4聚合","name":"T4聚合","type":4,"api":"https://t4.secan.icu/vod?sites=all&ali_token=https://gitcode.net/qq_26898231/TVBox/-/raw/main/txt/al.txt&timeout=5","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_Kunyu77","name":"酷云七七","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_AppTT","name":"图图影视","type":3,"api":"csp_AppTT","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
